@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="meraya.ua.com.grouper.ListStudByIdActivity">
+    <item
+        android:id="@+id/addStudent"
+        android:orderInCategory="100"
+        android:title="Добавить студента"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/checkStudent"
+        android:orderInCategory="100"
+        android:title="Отметить присутствующих"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/deleteStud"
+        android:orderInCategory="100"
+        android:title="Удалить выбранных"
+        app:showAsAction="never" />
+</menu>

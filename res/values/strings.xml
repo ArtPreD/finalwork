@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Grouper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_stud_by_id">ListStudByIdActivity</string>
+    <string name="checkAll">Выбрать всех</string>
+    <string name="ready">Готово</string>
+    <string name="toast_mess">Выберите хотя бы одного студента</string>
+</resources>

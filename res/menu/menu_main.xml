@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="meraya.ua.com.grouper.MainActivity">
+    <item
+        android:id="@+id/create_group"
+        android:orderInCategory="100"
+        android:title="Создать группу"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/exit_app"
+        android:orderInCategory="100"
+        android:title="Выход"
+        app:showAsAction="never" />
+</menu>
