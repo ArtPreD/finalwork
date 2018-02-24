@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="meraya.ua.com.grouper.activity.MainAuthorizationActivity">
+
+
+    <TextView
+        android:id="@+id/authorizationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/authorization"
+        android:textColor="#000000"
+        android:textStyle = "bold"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/UserNameText"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UserName"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:layout_below="@id/authorizationText"
+        />
+
+    <EditText
+        android:id="@+id/EnterUserName"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:layout_below="@id/UserNameText"
+        android:hint="@string/EnterUserName"
+        />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_margin="10dp"
+        android:layout_below="@id/EnterUserName"/>
+
+    <EditText
+        android:id="@+id/EnterPassword"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/EnterPassword"
+        android:layout_below="@id/passwordText"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/EnterPassword"/>
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textColor="#000000"
+        android:textStyle = "bold"
+        android:textSize="20sp"
+        android:layout_below="@id/login"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/offlineMode"
+        android:layout_below="@id/or"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff0000"
+        android:textSize="16sp"
+        android:layout_margin="30dp"
+        android:layout_below="@id/signUp"/>
+
+</RelativeLayout>

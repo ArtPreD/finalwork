@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Grouper</string>
+    <string name="title_activity_main">Authorization</string>
+    <string name="authorization">Авторизируйтесь</string>
+    <string name="UserName">Имя пользователя</string>
+    <string name="EnterUserName">Введите имя</string>
+    <string name="password">Пароль</string>
+    <string name="EnterPassword">Введите пароль</string>
+    <string name="login">Войти</string>
+    <string name="or">ИЛИ</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="offlineMode">Зарегистрироваться</string>
+    <string name="title_activity_group_list">GroupListActivity</string>
+    <string name="title_activity_list_stud_by_id">ListStudByIdActivity</string>
+    <string name="toast_mess">Выберите хотя бы одного студента</string>
+    <string name="title_activity_create_student">CreateStudentActivity</string>
+</resources>

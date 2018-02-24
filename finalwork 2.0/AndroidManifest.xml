@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="meraya.ua.com.grouper">
+
+    <application
+        android:name=".Grouper"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity
+            android:name=".activity.MainAuthorizationActivity"
+            android:label=""
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RegisterDialogActivity"
+            android:label=""
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GroupListActivity"
+            android:label="@string/title_activity_group_list"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ListStudByIdActivity"
+            android:label="@string/title_activity_list_stud_by_id"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".dialoge.CreateGroupActivity"
+            android:label="Введите название:"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".dialoge.CreateStudentActivity"
+            android:label="Введите имя:"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
